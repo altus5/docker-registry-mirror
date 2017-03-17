@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  registry:
+    restart: always
+    image: registry:2.1
+    ports:
+      - 5000:5000
+    volumes:
+      - /opt/docker-registry/data:/var/lib/registry
+      - /opt/docker-registry/certs:/certs
+      - /opt/docker-registry/data/config.yml:/etc/docker/registry/config.yml

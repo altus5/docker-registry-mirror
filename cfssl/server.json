@@ -1,0 +1,10 @@
+{
+  "CN": "altus5",
+  "hosts": [
+    "proxy.altus5.local"
+  ],
+  "key": {
+    "algo": "rsa",
+    "size": 2048
+  }
+}
