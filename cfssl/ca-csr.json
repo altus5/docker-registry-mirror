@@ -1,5 +1,5 @@
 {
-  "CN": "A5 self signed CA",
+  "CN": "altus5.local",
   "key": {
     "algo": "rsa",
     "size": 2048
