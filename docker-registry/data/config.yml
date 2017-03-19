@@ -10,8 +10,8 @@ storage:
 http:
   addr: :5000
   tls:
-    certificate: /certs/proxy.altus.local.pem
-    key: /certs/proxy.altus.local-key.pem
+    certificate: /certs/proxy.altus5.local.pem
+    key: /certs/proxy.altus5.local-key.pem
   headers:
     X-Content-Type-Options: [nosniff]
 health:
