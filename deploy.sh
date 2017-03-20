@@ -22,6 +22,6 @@ docker run --rm -it \
   gen_server_cert.sh
 
 # 起動
-cd /opt/docker-registry
-docker-compose up -d
+#cd /opt/docker-registry
+#docker-compose up -d
 

@@ -8,5 +8,5 @@ services:
       - 5000:5000
     volumes:
       - /opt/docker-registry/data:/var/lib/registry
-      - /opt/docker-registry/certs:/certs
       - /opt/docker-registry/data/config.yml:/etc/docker/registry/config.yml
+      - /opt/certs:/certs
